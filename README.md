@@ -25,16 +25,3 @@ A sophisticated content-based recommendation system for financial literacy conte
 - **Modular Design**: Separate backend processing and frontend interface
 - **Comprehensive Outputs**: Generates Top-10, Top-20, and KNN predictions
 
-## 🏗️ Architecture
-
-recommender-system/
-├── code/
-│ ├── content_based.py # Core recommendation algorithm
-│ ├── main.py # Streamlit web interface
-│ └── models/ # Cached feature models
-├── data/
-│ └── cleaned_financial_data.csv # Dataset
-├── results/
-│ └── tables/
-│ └── content_based/ # Generated recommendations
-└── requirements.txt # Dependencies
