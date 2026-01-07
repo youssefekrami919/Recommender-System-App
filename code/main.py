@@ -441,9 +441,12 @@ def main():
                     # Store recommendations in session
                     st.session_state['recommendations'] = recommendations
                     
-                    st.success("✅ Profile created successfully!")
-                    st.success("Go to 'Recommendations' page in the sidebar to see your recommendations!")
+                                     st.success("✅ Profile created successfully!")
                     st.balloons()
+                    
+                    # Show message below the form/button
+                    st.markdown("---")
+                    st.success("🎯 **Go to the 'Recommendations' page in the sidebar to see your personalized recommendations!**")
                     
                     # Show user profile summary
                     st.subheader("Your Profile Summary")
@@ -455,8 +458,8 @@ def main():
                     with profile_cols[2]:
                         st.info(f"**Difficulty:** {difficulty.title()}")
                     
-                    # Auto-redirect to recommendations
-                    st.rerun()
+                    # Remove the auto-redirect (st.rerun())
+                    # User can now manually click on Recommendations in sidebar
     
     elif page == "Recommendations":
         st.header("📚 Your Personalized Recommendations")
