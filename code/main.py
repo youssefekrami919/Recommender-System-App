@@ -441,7 +441,7 @@ def main():
                     # Store recommendations in session
                     st.session_state['recommendations'] = recommendations
                     
-                                     st.success("✅ Profile created successfully!")
+                    st.success("✅ Profile created successfully!")
                     st.balloons()
                     
                     # Show message below the form/button
