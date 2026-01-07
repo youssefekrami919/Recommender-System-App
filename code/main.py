@@ -442,6 +442,7 @@ def main():
                     st.session_state['recommendations'] = recommendations
                     
                     st.success("✅ Profile created successfully!")
+                    st.success("Go to 'Recommendations' page in the sidebar to see your recommendations!")
                     st.balloons()
                     
                     # Show user profile summary
