@@ -25,23 +25,26 @@ Generate recommendations using cached models
 
 Launch a fully functional web interface at http://localhost:8501
 
-For Developers & Learning
+### For Developers & Learning
 If you want to understand the system architecture step by step, run the files in this order:
 
 Data Preprocessing (if you have raw data):
 
-bash
+```bash
 python code/data_preprocessing.py
+```
 Content-Based Model Training:
 
-bash
+```bash
 python code/content_based.py
+```
 This generates recommendation tables and feature models in the results/ directory.
 
 Launch Web Interface:
 
-bash
+```bash
 streamlit run code/main.py
+```
 Note: The main.py file works independently and doesn't require running content_based.py first—it creates models on-the-fly!
 
 
