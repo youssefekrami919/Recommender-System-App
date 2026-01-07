@@ -47,6 +47,8 @@ streamlit run code/main.py
 ```
 Note: The main.py file works independently and doesn't require running content_based.py first—it creates models on-the-fly!
 
+### Collaborative Filtering Module
+Important: The collaborative.py file is included for educational purposes only. It demonstrates alternative recommendation approaches but is not integrated into the main application. Future versions may incorporate this as a hybrid recommendation system.
 
 
 ##  Key Features
